@@ -1,0 +1,124 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+<title>Seekho Login Form</title> 
+<style>  
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#87CEFA;  
+    font-family: 'Arial'; 
+    background-image: url("mac.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	backdrop-filter: blur(6px);
+}  
+.login{  
+        width:500px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        border-radius: 15px ;
+}
+input[type=text],select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=Password],select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=submit] {
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #DB7093;
+}
+
+label{  
+    color:#000000;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+span{  
+    color: black;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    background-color:#E6E6FA;  
+}  
+
+.button {
+ background-color: black;
+ color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+</style> 
+</head>    
+<body>    
+    <br><br><br>  
+    <div class="login">    
+    <form id="login" method="get" action="menu.html">    
+        <label><b>USERNAME     </b>    
+        </label>    
+        <input type="text" name="uname" id="uname" placeholder="Username">    
+        <br><br>    
+        <label><b>PASSWORD       </b>    
+        </label>    
+        <input type="Password" name="pass" id="pass" placeholder="Password">    
+        <br><br>    
+        <input type="submit" name="log" id="log" value="LOGIN">       
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span><b>REMEMBER ME?</b></span>    
+        <br><br> 
+         
+    </form>
+    <br><br><br>
+    <span><b>Don't have an account?</b></span>
+    <a class="button" href="http://localhost:8080/E-learning/registration.html">Register</a>    
+</div>    
+</body>    
+</html>     
